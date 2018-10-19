@@ -7,22 +7,22 @@
 	Int, float and bool are some examples of value types. When a value type is created a memory space is also created so it can store the value.
   
 3.	Q: What are reference types?
-	Reference types store references to their data, unlike the value types that 	store the data directly. So it stores the address where the value is being 	stored.
+	Reference types store references to their data, unlike the value types that store the data directly. So it stores the address where the value is being stored.
 
 4.	Q: What is an automatic property and how is it useful?
 	Automatic Properties are used to simplify code when no additional logic is required. It is a way to take lengthy code and write it in a shorter version and get the same result. It is useful because they are essentially coding shortcuts.
   
 5.	Q: What is the purpose of using statement?
-	The using statement is used to make sure that the object is dismissed as soon as it goes out of scope. The using statement ensures that it is gone so there is no need additional code.
+	The using statement is used to make sure that the object is dismissed as soon as it goes out of scope. The using statement ensures that it is gone so there is no need for additional code.
 
 6.	Q: What are dynamic type variables?
-	The dynamic type allows you to perform an operation and it will be 	resolved at run time. This means errors can be caught earlier. It is useful 	when coding using reflection or dynamic language because it requires 	less code.
+	The dynamic type allows you to perform an operation and it will be resolved at run time. This means errors can be caught earlier. It is useful when coding using reflection or dynamic language because it requires less code.
 
 7.	Q: What is the purpose of the is operator?
-	The is operator is used to evaluate compatibility at the run time. It is 	checking to see if the type of an object with a given type. It is checking to 	see if the type of object is what we wanted.
+	The is operator is used to evaluate compatibility at the run time. It is checking to see if the type of an object with a given type. It is checking to see if the type of object is what we wanted.
 
 8.	Q: What are generics and how is using them useful?
-	Generics are techniques of writing the code for a class without specifying 	the type. This allows for faster use rather than using objects where you 	have to locate the value.
+	Generics are techniques of writing the code for a class without specifying the type. This allows for faster use rather than using objects where you have to locate the value.
 
 9.	Q: What is the scope of a public member of a class?
 	A public member can be used by anyone.
@@ -31,7 +31,7 @@
 	Yes, a function can do more than one argument but it can only return one argument. 
   
 11.	Q: How do you sort an array?
-I can sort an array by using Array.Sort() in C#/
+I can sort an array by using Array.Sort() in C#
 
 12.	Q: What is a nullable type and what purpose does it serve?
 	Nullable types can set empty values to data in order to get it to run.
@@ -41,7 +41,7 @@ I can sort an array by using Array.Sort() in C#/
 
 
 14.	Q: What is inheritance?
-	Inheritance is when you can create a class that inherits the behaviors of 	an exisiting class. It is also one of the key features when it comes to 	object oriented programming.
+	Inheritance is when you can create a class that inherits the behaviors of an exisiting class. It is also one of the key features when it comes to object oriented programming.
 
 15.	Q: Is multiple inheritance supported?
 	No. You can only inherit one class in C#, multiple is not allowed.
@@ -52,12 +52,10 @@ I can sort an array by using Array.Sort() in C#/
 17.	Q: What is an object? An object is block of memory that has been made according to the code. Objects can also be stored in either a variable, in an array or collection.
 
 18.	Q: What is the difference between a struct and a class?
-	Unless otherwise specified, members of a struct are public, and members 	of a class are private. Structs are value type and classes are reference 	type.
+	Unless otherwise specified, members of a struct are public, and members of a class are private. Structs are value type and classes are reference type.
   
 19.	Q: What is the difference between continue and break statements?
-	Break causes the loop to be stopped immediately while continue causes 	the next iteration of the loop to start.
-
-
+	Break causes the loop to be stopped immediately while continue causes the next iteration of the loop to start.
 
 20.	Q: What is this and how is it used?
 	It could be used to reference the current instance of the class.
